@@ -7,39 +7,118 @@
     <title>Admin</title>
     <link rel="stylesheet" href="styles/body.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script
+      src="https://kit.fontawesome.com/b5a28e66fd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="sidebar">
       <div class="dashboardTitle">
-        <img src="imgs/sidebar/view-dashboard.png" alt="" /> Dashboard
+        <i class="fa-solid fa-chart-simple"></i> Dashboard
       </div>
       <div class="navigation">
-        <div class="icon"><img src="imgs/sidebar/home.png" alt="" />Home</div>
-        <div class="icon">
-          <img src="imgs/sidebar/account.png" alt="" />Profile
-        </div>
-        <div class="icon">
-          <img src="imgs/sidebar/message-text.png" alt="" />Messages
-        </div>
-        <div class="icon">
-          <img src="imgs/sidebar/clock.png" alt="" />History
-        </div>
-        <div class="icon">
-          <img src="imgs/sidebar/note-multiple.png" alt="" />Tasks
-        </div>
-        <div>
-          <img src="imgs/sidebar/account-multiple.png" alt="" /> ommunities
-        </div>
+        <div class="icon"><i class="fa-solid fa-house"></i>Home</div>
+        <div class="icon"><i class="fa-solid fa-address-card"></i>Profile</div>
+        <div class="icon"><i class="fa-solid fa-message"></i>Messages</div>
+        <div class="icon"><i class="fa-solid fa-clock"></i>History</div>
+        <div class="icon"><i class="fa-solid fa-list-check"></i>Tasks</div>
+        <div class="icon"><i class="fa-solid fa-users"></i>Communities</div>
       </div>
       <div class="utilities">
+        <div class="icon"><i class="fa-solid fa-gear"></i>Settings</div>
         <div class="icon">
-          <img src="imgs/sidebar/cog.png" alt="" />Settings
+          <i class="fa-regular fa-circle-question"></i>Support
         </div>
-        <div class="icon">
-          <img src="imgs/sidebar/help-box.png" alt="" />Support
+        <div class="icon"><i class="fa-solid fa-shield"></i>Privacy</div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="search">
+        <i class="icon fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="   Search" />
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-bell"></i>
+        <img src="logo.png" alt="" />
+        Zachary Dull
+      </div>
+      <div class="greeting">
+        <img src="logo.png" alt="" />
+        <div class="greetingText">
+          <div class="top">Hi threre,</div>
+          <div class="bottom">Zachary Dull (@Zdoggz99)</div>
         </div>
-        <div class="icon">
-          <img src="imgs/sidebar/shield-check.png" alt="" />Privacy
+      </div>
+      <div class="buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+    </div>
+    <div class="topOfMain">
+      <div class="text"><h3>Projects</h3></div>
+      <div class="text"><h3>Announcements</h3></div>
+    </div>
+    <div class="main">
+      <div class="cardContainer">
+        <div class="card">
+          <h3>Super Cool Project</h3>
+          <p>
+            sed tempus ut lacus ut scelerisque. Sispendisse sollicitudin nibh
+            erat, id facilisis felis accumsan nec.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Less Cool Project</h3>
+          <p>
+            Nullam Condimentum ipsum ut lectus vehicula consectetur. Quisque sed
+            dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem
+            purus dignissim ut sapien un, varius pellentesque lacus
+          </p>
+        </div>
+        <div class="card">
+          <h3>Impossible App</h3>
+          <p>
+            In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+            placerat velit sagittis id.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Easy Peasy App</h3>
+          <p>
+            Etiam cursus eros ac efficitur fringilla. Vestibulum digniddim urna
+            eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo,
+            ac bibendum magna tincidunt.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Ad Blocker</h3>
+          <p>
+            quisue eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+            pharetra hendrerit felis. Aliquam sed malesuada eros
+          </p>
+        </div>
+        <div class="card">
+          <h3>Money Maker</h3>
+          <p>
+            Praesent convallis, libero quis congue elementum, nunc ante faucibus
+            sapien, ac scelerisque tortor purus sit amet ex. Pellentesque millis
+            nec sem vel aliquam
+          </p>
+        </div>
+      </div>
+      <div class="infoPanels">
+        <div class="panel">
+          <div class="card"></div>
+        </div>
+        <div class="trendingCard">
+          <div class="trendingTitle"><h3>Trending</h3></div>
+          <div class="panel">
+            <div class="card"></div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,24 +1,39 @@
 .sidebar {
+  grid-column: 1/2;
   color: #eaf6ff;
   display: flex;
   flex-direction: column;
   background-color: #009ffd;
-  padding: 20px;
+  width: 100%;
   gap: 80px;
+  height: 100vh;
 }
 
-.dashboardTitle {
+.sidebar .dashboardTitle {
   font-size: xx-large;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
-.navigation,
-.utilities {
+.sidebar .navigation,
+.sidebar .utilities {
   font-size: x-large;
   display: flex;
   flex-direction: column;
 }
 
-.icon {
-  padding-left: 10px;
-  margin-bottom: 10px;
+.sidebar .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.sidebar .icon:hover {
+  color: gray;
+  background-color: rgb(255, 185, 55);
+  cursor: pointer;
 }

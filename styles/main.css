@@ -1,0 +1,78 @@
+.topOfMain {
+  grid-column: 2 / end;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(226, 226, 226);
+}
+
+.topOfMain .text {
+  padding-left: 50px;
+  padding-right: 105px;
+}
+
+.main {
+  background-color: rgb(226, 226, 226);
+  grid-row: 3/4;
+  grid-column: 2 / end;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .cardContainer {
+  width: 75%;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  gap: 25px;
+}
+
+.main .cardContainer .card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  padding-right: 100px;
+  border-radius: 15px;
+  background-color: white;
+  border-left: 5px solid rgb(255, 185, 55);
+}
+
+.main .cardContainer .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main .infoPanels {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.main .trendingCard {
+}
+
+.main .panel {
+  height: 50%;
+}
+
+.main .panel .card {
+  height: 100%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.main p {
+  font-size: large;
+}
+
+.main h3,
+p {
+  padding: 0;
+  margin: 0;
+}

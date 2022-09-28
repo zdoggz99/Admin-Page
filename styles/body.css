@@ -1,7 +1,11 @@
 :root {
-  font-family: Tahoma, sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
+  display: grid;
+  grid-template: 19.5vh 5vh calc(100vh - 19.5vh - 5vh) / 35vh;
   margin: 0;
 }
+
